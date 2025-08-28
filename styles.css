@@ -1,0 +1,380 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: auto;
+    background-image: url("bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+nav a {
+    font-size: 25px;
+    color: #8fdff9;
+}
+
+nav a:hover {
+    color: #ff92ee !important;
+}
+
+nav a:visited {
+    color: #8fdff9;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px lightpink;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px lightpink;
+}
+
+p {
+    margin: auto;
+    font-size: 18px;
+    width: 52%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+ul {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0px;
+    text-shadow: 1px 1px black;
+}
+
+#container-education {
+    display: inline-flex;
+    align-items: center;
+}
+
+#div-programmes {
+    width: 480px;
+}
+
+#div-courses {
+    width: 480px;
+}
+
+#picture-profile-mobile {
+    display: none;
+}
+
+#picture-profile {
+    float: right;
+    margin-right: 13.5%;
+    margin-left: 10px;
+    width: 180px;
+    border: 3px solid black;
+    border-radius: 3px;
+
+}
+
+#container-about {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    min-width: 1080px;
+}
+
+#desc-mobile {
+    display: none;
+}
+
+#desc {
+    color: white;
+    width: 75%;
+    text-shadow: 1px 1px black;
+}
+
+
+#text-projects {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45% !important;
+    text-shadow: 1px 1px black;
+}
+
+a {
+    color: lightblue;
+    text-shadow: 1px 1px black;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: #ff92ee;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table caption {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+.bottom-form {
+    margin: auto;
+    text-align: center;
+    max-width: 20%;
+}
+
+.input {
+    opacity: 100%;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 5px;
+    max-width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#submit-text {
+    font-weight: bold;
+    height: 35px;
+    width: 180px;
+}
+
+input:hover {
+    background-color: #ffd3f8;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    width: 25%;
+    min-width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media all and (max-width: 1024px) and (orientation: portrait) {
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        height: 100%;
+        width: auto;
+        font-weight: bold;
+        background-image: url("bg3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: white;
+        margin: 0px;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav a {
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        color: #8fdff9;
+    }
+
+    nav a:hover {
+        color: #ff92ee !important;
+    }
+
+    nav a:visited {
+        color: #8fdff9;
+    }
+
+    #picture-profile-mobile {
+        margin: auto;
+        width: 140px;
+        border: 3px solid black;
+        border-radius: 3px;
+    }
+
+    #picture-profile {
+        display: none;
+        min-width: 540px;
+        margin: auto;
+    }
+
+    #desc-mobile {
+        margin: auto;
+        align-items: center;
+        padding: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-width: 800px;
+        text-shadow: 1px 1px black;
+    }
+
+    #container-about {
+        display: none;
+    }
+
+    #desc {
+        display: none;
+        color: white;
+        width: 75%;
+    }
+
+    footer {
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+        align-items: flex-end;
+    }
+
+    h1 {
+        color: white;
+        text-shadow: 2px 2px lightpink;
+    }
+
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        color: white;
+        text-shadow: 2px 2px lightpink;
+    }
+
+    #text-projects {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 25px;
+    }
+
+    #container-education {
+        display: block;
+        align-items: center;
+    }
+
+
+    p {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        text-shadow: 1px 1px black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    ul {
+        color: white;
+        text-shadow: 1px 1px black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        color: lightblue;
+    }
+
+    a:visited {
+        color: lightblue;
+    }
+
+    a:hover {
+        color: #ff92ee;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .bottom-form {
+        width: 250px;
+        margin: auto;
+    }
+
+    .input {
+        opacity: 100%;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    input {
+        border-radius: 5px;
+        max-width: 250px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    #submit-text {
+        font-weight: bold;
+        height: 35px;
+        width: 180px;
+    }
+
+    input:hover {
+        background-color: #ffd3f8;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    textarea {
+        resize: none;
+        width: 25%;
+        min-width: 250px;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
