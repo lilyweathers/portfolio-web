@@ -126,8 +126,13 @@ ul {
     min-width: 1080px;
 }
 
-#text-projects {
-    width: 45%;
+.projects {
+    margin: auto;
+    display: block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    text-shadow: 1px 1px black;
 }
 
 a {
@@ -274,8 +279,13 @@ textarea {
         width: 75%;
     }
 
-    #text-projects {
-        width: 95%;
+    .projects {
+        margin: auto;
+        display: block;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 88%;
+        text-shadow: 1px 1px black;
     }
 
     footer {
