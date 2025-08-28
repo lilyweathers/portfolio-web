@@ -301,6 +301,7 @@ textarea {
         padding-left: 25px;
         padding-right: 25px;
         width: 100% !important;
+        margin: 0% !important;
     }
 
     #container-education {
