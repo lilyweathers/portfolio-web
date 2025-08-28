@@ -93,7 +93,7 @@ ul {
 
 #picture-profile {
     float: right;
-    margin-right: 13.5%;
+    margin-right: 0%;
     margin-left: 10px;
     width: 180px;
     border: 3px solid black;
@@ -107,7 +107,7 @@ ul {
     align-items: center;
     width: 60%;
     min-width: 1080px;
-    max-width: 1900px;
+    max-width: 1500px;
 }
 
 #desc-mobile {
@@ -116,7 +116,7 @@ ul {
 
 #desc {
     color: white;
-    width: 75%;
+    width: 100%;
     text-shadow: 1px 1px black;
 }
 
@@ -130,6 +130,8 @@ ul {
 .projects {
     margin: auto;
     display: inline-flex;
+    padding-left: 3%;
+    padding-right: 3%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
@@ -142,7 +144,7 @@ ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 13.5%;
     margin-left: 13.5%;
-    max-width: 1900px;
+    max-width: 2050px;
     text-shadow: 1px 1px black;
 }
 
