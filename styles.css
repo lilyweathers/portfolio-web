@@ -106,7 +106,6 @@ ul {
     display: flex;
     align-items: center;
     width: 60%;
-    min-width: 1080px;
     max-width: 1500px;
 }
 
