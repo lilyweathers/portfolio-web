@@ -22,7 +22,7 @@ header {
 nav a {
     font-size: 25px;
     color: #8fdff9;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -119,12 +119,15 @@ ul {
     text-shadow: 1px 1px black;
 }
 
+#container-projects {
+    margin: auto;
+    align-items: center;
+    width: 60%;
+    min-width: 1080px;
+}
 
 #text-projects {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:50%;
-    text-shadow: 1px 1px black;
+    width: 45%;
 }
 
 a {
@@ -265,14 +268,14 @@ textarea {
         text-shadow: 1px 1px black;
     }
 
-    #container-about {
-        display: none;
-    }
-
     #desc {
         display: none;
         color: white;
         width: 75%;
+    }
+
+    #text-projects {
+        width: 95%;
     }
 
     footer {
@@ -292,16 +295,6 @@ textarea {
         font-style: italic;
         color: white;
         text-shadow: 2px 2px lightpink;
-    }
-
-    #text-projects {
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 0%;
-        padding-left: 25px;
-        padding-right: 25px;
-        width: auto;
-        margin: 0% !important;
     }
 
     #container-education {
@@ -326,6 +319,7 @@ textarea {
 
     p {
         color: white;
+        margin: auto;
         padding: 0px;
         text-shadow: 1px 1px black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
