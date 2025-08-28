@@ -107,6 +107,7 @@ ul {
     align-items: center;
     width: 60%;
     min-width: 1080px;
+    max-width: 1900px;
 }
 
 #desc-mobile {
@@ -128,10 +129,8 @@ ul {
 
 .projects {
     margin: auto;
-    display: block;
+    display: inline-flex;
     color: white;
-    padding-left: 9vh;
-    padding-right: 9vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
 }
@@ -141,10 +140,9 @@ ul {
     display: block;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    ;
-    padding-left: 9vh;
-    padding-right: 9vh;
-    max-width: 800px;
+    margin-right: 13.5%;
+    margin-left: 13.5%;
+    max-width: 1900px;
     text-shadow: 1px 1px black;
 }
 
@@ -299,6 +297,7 @@ textarea {
     .projects {
         margin: auto;
         display: block;
+        max-width: none;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         min-width: none;
