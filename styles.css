@@ -130,9 +130,26 @@ ul {
     margin: auto;
     display: block;
     color: white;
+    padding-left: 9vh;
+    padding-right: 9vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
     text-shadow: 1px 1px black;
+}
+
+.text-projects {
+    margin: auto;
+    display: block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+    padding-left: 9vh;
+    padding-right: 9vh;
+    max-width: 800px;
+    text-shadow: 1px 1px black;
+}
+
+.text-projects-mobile {
+    display: none;
 }
 
 a {
@@ -284,8 +301,21 @@ textarea {
         display: block;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 88%;
+        min-width: none;
         text-shadow: 1px 1px black;
+    }
+
+    .text-projects {
+        margin: auto;
+        display: none;
+    }
+
+    .text-projects-mobile {
+        display: block;
+        padding: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
     }
 
     footer {
