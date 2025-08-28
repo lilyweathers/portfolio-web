@@ -300,7 +300,7 @@ textarea {
         padding: 0%;
         padding-left: 25px;
         padding-right: 25px;
-        width: 100% !important;
+        width: auto;
         margin: 0% !important;
     }
 
@@ -326,7 +326,6 @@ textarea {
 
     p {
         color: white;
-        margin: auto;
         padding: 0px;
         text-shadow: 1px 1px black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
