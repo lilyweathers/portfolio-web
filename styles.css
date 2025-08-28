@@ -304,6 +304,20 @@ textarea {
         align-items: center;
     }
 
+    #div-programmes {
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+    #div-courses {
+        margin: auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
 
     p {
         color: white;
