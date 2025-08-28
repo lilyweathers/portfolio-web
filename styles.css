@@ -275,7 +275,7 @@ textarea {
     }
 
     footer {
-
+        margin: auto;
         padding-top: 15px;
         padding-bottom: 15px;
         align-items: flex-end;
@@ -307,7 +307,7 @@ textarea {
 
     p {
         color: white;
-        margin: 0px;
+        margin: auto;
         padding: 0px;
         text-shadow: 1px 1px black;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
