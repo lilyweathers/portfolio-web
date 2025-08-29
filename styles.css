@@ -397,6 +397,7 @@ textarea {
     .bottom-form {
         width: 250px;
         margin: auto;
+        min-width: 250px;
     }
 
     .input {
