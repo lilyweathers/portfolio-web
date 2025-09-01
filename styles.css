@@ -14,11 +14,9 @@ body {
 }
 
 header {
-    
-    padding-top: 15px;
-    padding-bottom: 15px;
     color: white;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -31,11 +29,12 @@ nav a {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .menu-item {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height:70px;
+    height: 70px;
 }
 
 .menu-item:hover .icon {
@@ -43,9 +42,11 @@ nav a {
     width: 65px;
     margin-top: -7.5px;
 }
+
 .icon {
     width: 50px;
 }
+
 nav a:hover {
     color: #ff92ee !important;
 }
@@ -57,15 +58,25 @@ nav a:visited {
 footer {
     padding-top: 15px;
     padding-bottom: 15px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     align-items: flex-end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
+    background-color: rgb(48, 106, 77);
+    width: 100%;
 }
 
 h1 {
     color: white;
     text-shadow: 2px 2px lightpink;
     font-size: 3rem;
+    background-color: rgb(48, 106, 77);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: -15px;
 }
 
 h2 {
@@ -224,7 +235,8 @@ input {
 
 #submit-text {
     font-weight: bold;
-    margin-top: 5px;;
+    margin-top: 5px;
+    ;
     height: 35px;
     width: 180px
 }
@@ -364,6 +376,7 @@ textarea {
 
     footer {
         margin: auto;
+        position: fixed;
         padding-top: 15px;
         padding-bottom: 15px;
         align-items: flex-end;
@@ -372,6 +385,7 @@ textarea {
     h1 {
         color: white;
         text-shadow: 2px 2px lightpink;
+        padding-top: 5px;
     }
 
     h2 {
@@ -415,7 +429,7 @@ textarea {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-left: 15px;
         padding-right: 15px;
-        
+
     }
 
     li {
