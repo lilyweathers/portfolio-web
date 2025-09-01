@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
@@ -34,12 +35,17 @@ nav a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height:70px;
 }
 
+.menu-item:hover .icon {
+    transition: 0.25s;
+    width: 65px;
+    margin-top: -7.5px;
+}
 .icon {
     width: 50px;
 }
-
 nav a:hover {
     color: #ff92ee !important;
 }
@@ -218,8 +224,19 @@ input {
 
 #submit-text {
     font-weight: bold;
+    margin-top: 5px;;
     height: 35px;
-    width: 180px;
+    width: 180px
+}
+
+#submit-text:hover {
+    transition: 0.25s;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    height: 45px;
+    width: 195px;
 }
 
 input:hover {
