@@ -59,6 +59,7 @@ footer {
 h1 {
     color: white;
     text-shadow: 2px 2px lightpink;
+    font-size: 3rem;
 }
 
 h2 {
@@ -260,6 +261,15 @@ textarea {
         color: white;
         margin: 0px;
         text-align: center;
+        align-items: center;
+    }
+
+
+    nav {
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
