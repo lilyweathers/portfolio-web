@@ -139,7 +139,7 @@ ul {
     display: flex;
     align-items: center;
     text-align: justify;
-    width: 61%;
+    width: 56%;
     max-width: 1300px;
 }
 
@@ -156,15 +156,15 @@ ul {
 #container-projects {
     margin: auto;
     align-items: center;
-    width: 61%;
+    width: 60%;
     min-width: 1080px;
 }
 
 .projects {
     margin: auto;
     display: inline-flex;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
