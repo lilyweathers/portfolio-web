@@ -138,7 +138,7 @@ ul {
     margin: auto;
     display: flex;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     width: 56%;
     max-width: 1300px;
 }
@@ -173,7 +173,7 @@ ul {
 .text-projects {
     margin: auto;
     display: block;
-    text-align: justify;
+    text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 17%;
@@ -183,6 +183,32 @@ ul {
 }
 
 .text-projects-mobile {
+    display: none;
+}
+
+.contact {
+    margin: auto;
+    display: inline-flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+.text-contact {
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 17%;
+    margin-left: 17%;
+    max-width: 1750px;
+    text-shadow: 1px 1px black;
+}
+
+.text-contact-mobile {
     display: none;
 }
 
@@ -368,12 +394,25 @@ textarea {
         display: none;
     }
 
+    .text-contact {
+        margin: auto;
+        display: none;
+    }
+
     .text-projects-mobile {
         display: block;
         padding: 25px;
         padding-top: 0px;
         padding-bottom: 0px;
         text-align: justify;
+
+    }
+        .text-contact-mobile {
+        display: block;
+        padding: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
 
     }
 
