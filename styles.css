@@ -80,6 +80,7 @@ h1 {
 }
 
 h2 {
+    margin-top: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     color: white;
@@ -210,6 +211,15 @@ ul {
 
 .text-contact-mobile {
     display: none;
+}
+
+iframe {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-info {
+    margin-bottom: 100px;
 }
 
 a {
