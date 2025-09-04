@@ -294,10 +294,7 @@ input {
     margin-bottom: -5px;
     height: 45px;
     width: 195px;
-}
-
-input:hover {
-    background-color: #ffd3f8;
+    background-color: #19a75d;
 }
 
 label {
