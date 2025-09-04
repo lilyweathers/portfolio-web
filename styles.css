@@ -280,6 +280,7 @@ input {
 }
 
 #submit-text {
+    border-radius: 15px !important;
     font-weight: bold;
     margin-top: 5px;
     height: 35px;
@@ -295,6 +296,8 @@ input {
     height: 45px;
     width: 195px;
     background-color: #19a75d;
+    border: 3px solid whitesmoke;
+    border-radius: 20px !important;
 }
 
 label {
@@ -305,7 +308,7 @@ textarea {
     resize: none;
     width: 25%;
     min-width: 500px;
-    border-radius: 10px;
+    border-radius: 2ch;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -554,10 +557,6 @@ textarea {
         font-weight: bold;
         height: 35px;
         width: 180px;
-    }
-
-    input:hover {
-        background-color: #ffd3f8;
     }
 
     label {
