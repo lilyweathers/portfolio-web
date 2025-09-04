@@ -33,10 +33,6 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
-    
-}
-
 .menu-item {
     display: flex;
     align-items: center;
@@ -48,6 +44,7 @@ nav a:hover {
     transition: 0.25s;
     width: 65px;
     margin-top: -7.5px;
+    margin-left: -7.5px;
 }
 
 .icon {
