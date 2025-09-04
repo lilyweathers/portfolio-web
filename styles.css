@@ -441,7 +441,7 @@ textarea {
 
     .text-contact-mobile {
         display: block;
-        padding: 25px;
+        text-align: justify;
         padding-top: 0px;
         padding-bottom: 0px;
         text-align: center;
