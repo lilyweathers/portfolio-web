@@ -262,6 +262,8 @@ form {
     margin: auto;
     text-align: center;
     max-width: 20%;
+    width: 450px;
+    min-width: 250px;
 }
 
 .input {
@@ -280,7 +282,6 @@ input {
 #submit-text {
     font-weight: bold;
     margin-top: 5px;
-    ;
     height: 35px;
     width: 180px
 }
@@ -361,7 +362,8 @@ textarea {
     nav a:visited {
         color: #8fdff9;
     }
-        .menu-item:hover .icon {
+
+    .menu-item:hover .icon {
         filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(100deg) brightness(95%) contrast(80%);
         transition: 0.25s;
         height: 70px;
