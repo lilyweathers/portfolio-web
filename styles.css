@@ -307,7 +307,7 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media all and (max-width: 1024px) and (orientation: portrait) {
+@media all and (max-width: 600px) and (orientation: portrait) {
     body {
         display: flex;
         min-height: 100vh;
@@ -417,13 +417,19 @@ textarea {
         text-align: justify;
 
     }
-        .text-contact-mobile {
+
+    .text-contact-mobile {
         display: block;
         padding: 25px;
         padding-top: 0px;
         padding-bottom: 0px;
         text-align: center;
 
+    }
+
+    iframe {
+        width: 95%;
+        height: 380px;
     }
 
     footer {
@@ -540,7 +546,7 @@ textarea {
 
     textarea {
         resize: none;
-        width: 25%;
+        width: 90%;
         min-width: 250px;
         border-radius: 10px;
         padding: 20px;
