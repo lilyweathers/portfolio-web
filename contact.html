@@ -1,74 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lily Sainte-Claire</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact — Lily Clairevelle</title>
+<meta name="description" content="Lily Clairevelle, web developer and tech administrator in Stockholm. Code, creativity, and thoughtful digital experiences.">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer>
+</script>
 </head>
-
-<body id="contact-body">
-    <header>
-        <h1><a href="/portfolio-web/index.html"></a>Lily's Portfolio</a></h1>
-        <nav>
-            <a href="/portfolio-web/index.html">
-                <div class="menu-item"><img class="icon" src="home_white.png">Home</div>
-            </a>
-            <a href="/portfolio-web/projects.html">
-                <div class="menu-item"><img class="icon" src="projects_white.png">Projects</div>
-            </a>
-            <a href="/portfolio-web/contact.html">
-                <div class="menu-item"><img class="icon" src="contact_white.png">Contact</div>
-            </a>
-        </nav>
-    </header>
-    <main>
-        <h2>Bringing Ideas to Life</h2>
-        <div class="contact">
-            <p class="text-contact">I’m Lily Sainte-Claire, a creative professional with a background in design and
-                storytelling. I specialize in
-                bringing fresh ideas to life through thoughtful visuals and meaningful experiences. Whether you’re a
-                business looking to connect with customers in new ways or a client seeking a unique creative approach,
-                I’d
-                love to collaborate.</br></br>
-
-                Let’s start something remarkable—reach out and let’s create.</p>
-            <p class="text-contact-mobile">I’m Lily Sainte-Claire, a creative professional with a background in design
-                and
-                storytelling. I specialize in
-                bringing fresh ideas to life through thoughtful visuals and meaningful experiences. Whether you’re a
-                business looking to connect with customers in new ways or a client seeking a unique creative approach,
-                I’d
-                love to collaborate.</br></br>
-
-                Let’s start something remarkable—reach out and let’s create.
-            </p>
-        </div>
-        <h2>Contact info</h2>
-        <p>Tel: 0769159668</p>
-        <p>Mail: <a href="mailto:lily.sainteclaire87@gmail.com">lily.sainteclaire87@gmail.com</a></p>
-        <p>Address: <a target="_blank" href="https://www.google.com/maps?ll=59.312049,18.073892&z=16&t=m&hl=sv&gl=SE&mapclient=embed&cid=12533186809354528946">Götgatan 78, 118 30 Stockholm, Sweden</a></p>
-        <div class="contact-info"><iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.251975703453!2d18.0738923!3d59.312049300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77f0eadc91bf%3A0xadeed2ffdb3028b2!2sSkrapan!5e0!3m2!1ssv!2sse!4v1756988438470!5m2!1ssv!2sse"
-                width="540" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <h2>Send me a message</h2>
-        <form accept="/contact.html" method="get">
-            <div class="input"><textarea id="meddelande" rows="12" placeholder="Your message..."></textarea></div>
-            <div class="bottom-form">
-                <div class="input"><input type="name" id="name" placeholder="Name">
-                    <input type="email" id="email" placeholder="E-mail">
-                </div>
-                <div class="input"><input id="submit-text" type="submit" value="Send Message"></div>
-            </div>
-        </form>
-    </main>
-    </br>
-    <footer>
-        <p>&copy; 2025 Lily Sainte-Claire</p>
-    </footer>
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap"><a class="wordmark" href="index.html">Lily Clairevelle<span>.</span></a>
+<nav aria-label="Main navigation"><a href="index.html" >About</a><a href="projects.html" >Projects</a><a href="contact.html" aria-current="page">Let’s talk ↗</a>
+</nav>
+</header>
+<main id="main">
+<section class="page-intro wrap">
+<p class="eyebrow">CONTACT / SAY HELLO</p>
+<h1>Let’s make<br><em>something meaningful.</em>
+</h1>
+<p>A project, a role, or an interesting idea? I’d love to hear what you have in mind.</p>
+</section>
+<section class="contact-layout wrap split">
+<div class="contact-details">
+<p class="eyebrow">A DIRECT LINE</p><a href="mailto:lily.sainteclaire87@gmail.com"><span class="eyebrow">EMAIL ↗</span>lily.sainteclaire87@gmail.com</a><a href="tel:+46769159668"><span class="eyebrow">PHONE ↗</span>+46 76 915 96 68</a>
+<div class="location">
+<p class="eyebrow">BASED IN</p>
+<p>Götgatan 78 · Stockholm, Sweden<br>English & Swedish</p>
+</div>
+<div class="small-links"><a href="https://github.com/lilyweathers" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://vimeo.com/lilyw87" target="_blank" rel="noopener noreferrer">Vimeo ↗</a>
+</div>
+</div>
+<form class="message-form" id="message-form">
+<h2>Start a conversation.</h2>
+<p class="form-note">Write a note here, then send it through your email app.</p>
+<label for="name">Your name</label>
+<input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="How should I call you?">
+<label for="email">Email address</label>
+<input id="email" name="email" type="email" autocomplete="email" required maxlength="200" placeholder="you@example.com">
+<label for="message">What’s on your mind?</label>
+<textarea id="message" name="message" rows="4" required maxlength="5000" placeholder="Tell me a little about your idea…">
+</textarea>
+<button class="button" type="submit">Open email draft <span aria-hidden="true">↗</span>
+</button>
+<p id="form-status" class="form-status" role="status">
+</p>
+<noscript>
+<p class="form-note">Please use the email link to send your message.</p>
+</noscript>
+</form>
+</section>
+</main>
+<footer class="site-footer wrap"><span>© <span data-year>2026</span> Lily Clairevelle</span><span>Built with care. And curiosity.</span>
+<div><a href="https://github.com/lilyweathers" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://vimeo.com/lilyw87" target="_blank" rel="noopener noreferrer">Vimeo ↗</a>
+</div>
+</footer>
 </body>
-
 </html>
